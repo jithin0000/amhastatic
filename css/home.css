@@ -1,0 +1,47 @@
+#home{
+    min-height: 50vh;
+}
+.carousel-item{
+    position: relative;
+}
+.c-image{
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.donate-card{
+    background-color: white;
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    padding: 22px 16px;
+    width: 25%;
+    text-align: left;
+}
+
+.feature{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.icon-img{
+    width: 61px;
+    height: 51px;
+    margin-bottom:26px;
+    color: #91a1b4;
+}
+
+
+
+
+
+
