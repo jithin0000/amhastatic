@@ -5,220 +5,527 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
 
-    <link href="https://fonts.googleapis.com/css?family=Karla|Montserrat&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
     <title>Amha</title>
-
-
 </head>
 
 <body>
 
     <section id="navbar">
 
-        <nav class="nav-bar">
-            <div class="logo">
-                <h5>Amha</h5>
-            </div>
-            <ul class="nav-group">
-                <li class="nav-group-item">
-                    <a href="/" class="nav-item-link active">home</a>
-                </li>
-                <li class="nav-group-item">
-                    <a href="/" class="nav-item-link">Services</a>
-                </li>
-                <li class="nav-group-item">
-                    <a href="/" class="nav-item-link">Events</a>
-                </li>
-                <li class="nav-group-item">
-                    <a href="/" class="nav-item-link">Gallery</a>
-                </li>
-                <li class="nav-group-item">
-                    <a href="/" class="nav-item-link">about</a>
-                </li>
-            </ul>
-            <div class="outline">
-                <button class="btn-outline">Become A Member</button>
+        <nav class="white">
+            <div class="nav-wrapper">
+                <a href="#!" class="brand-logo">Logo</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+                    <i class="material-icons">menu</i></a>
+                <ul class="center-align hide-on-med-and-down">
+                    <li><a style="color: #7F8BA6;" class="nav-item-link" href="Services.html">Services</a></li>
+                    <li><a style="color: #7F8BA6;" class="nav-item-link" href="badges.html">Events</a></li>
+                    <li><a style="color: #7F8BA6;" class="nav-item-link" href="collapsible.html">Gallery</a></li>
+                    <li><a style="color: #7F8BA6;" class="nav-item-link" href="mobile.html">Mobile</a></li>
+                    <li><a class="btn btn" href="mobile.html">About us</a></li>
+
+                </ul>
             </div>
         </nav>
 
+        <ul class="sidenav" id="About us-demo">
+            <li><a style="color: #7F8BA6;" href="Services.html">Services</a></li>
+            <li><a style="color: #7F8BA6;" href="badges.html">Events</a></li>
+            <li><a style="color: #7F8BA6;" href="collapsible.html">Gallery</a></li>
+            <li><a style="color: #7F8BA6;" href="mobile.html">About us</a></li>
+        </ul>
+
     </section>
 
-    <section id="home">
 
-        <div class="row">
-            <div class="">
-                <div class="col-lg-12 col-md-12 col-sm-12 ">
-                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <div class="donate-card">
-                                    <div class="feature">
-                                        <button class="btn btn-secondary">featured</button>
-                                        <p class="light-grey-text light">193 days left</p>
-                                    </div>
-                                    <div class="content mt-3 ">
-                                        <h5 class="text-active">Give education to the one who really needed</h5>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa ipsam
-                                            explicabo, sapiente harum commodi unde!</p>
-                                    </div>
-                                    <hr>
+    <section id="slideshow">
+        <div class="carousel carousel-slider center">
+            <!-- <div class="carousel-fixed-item center">
+                <a class="btn waves-effect white grey-text darken-text-2">button</a>
+            </div> -->
+            <div class="carousel-item red white-text" href="#one!">
+                <h2>First Panel</h2>
+                <p class="white-text">This is your first panel</p>
+            </div>
+            <div class="carousel-item amber white-text" href="#two!">
+                <h2>Second Panel</h2>
+                <p class="white-text">This is your second panel</p>
+            </div>
+            <div class="carousel-item green white-text" href="#three!">
+                <h2>Third Panel</h2>
+                <p class="white-text">This is your third panel</p>
+            </div>
+            <div class="carousel-item blue white-text" href="#four!">
+                <h2>Fourth Panel</h2>
+                <p class="white-text">This is your fourth panel</p>
+            </div>
+        </div>
+    </section>
 
-                                    <div class="bottom">
-                                        <div class="left">
-                                            <p class="not-important">Raised</p>
-                                            <h1 class="primary-color title">&#36;1500</h1>
-                                        </div>
-                                        <div class="right">
-                                            <p class="not-important">Goal</p>
-                                            <h1 class="title title-text">&#36;2500</h1>
-                                        </div>
-                                    </div>
-                                    <div style="text-align: center;" class="mt-3">
-                                        <button class="btn btn-primary">donate now</button>
-                                    </div>
-                                </div>
-                                <img class="c-image" src="/assets/navbar/first.jpg" alt="First slide">
-                            </div>
-                            <div class="carousel-item">
-                                <img class="c-image" src="/assets/navbar/second.jpg" alt="Second slide">
-                                <div class="donate-card">
-                                    <div class="feature">
-                                        <button class="btn btn-secondary">featured</button>
-                                        <p class="light-grey-text light">193 days left</p>
-                                    </div>
-                                    <div class="content mt-3 ">
-                                        <h5 class="text-active">Give education to the one who really needed</h5>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa ipsam
-                                            explicabo, sapiente harum commodi unde!</p>
-                                    </div>
-                                    <hr>
+    <div class="container">
 
-                                    <div class="bottom">
-                                        <div class="left">
-                                            <p class="not-important">Raised</p>
-                                            <h1 class="primary-color title">&#36;1500</h1>
-                                        </div>
-                                        <div class="right">
-                                            <p class="not-important">Goal</p>
-                                            <h1 class="title title-text">&#36;2500</h1>
-                                        </div>
-                                    </div>
-                                    <div style="text-align: center;" class="mt-3">
-                                        <button class="btn btn-primary">donate now</button>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <img class="c-image" src="/assets/navbar/third.jpg" alt="Third slide">
-                                <div class="donate-card">
-                                    <div class="feature">
-                                        <button class="btn btn-secondary">featured</button>
-                                        <p class="light-grey-text light">193 days left</p>
-                                    </div>
-                                    <div class="content mt-3 ">
-                                        <h5 class="text-active">Give education to the one who really needed</h5>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa ipsam
-                                            explicabo, sapiente harum commodi unde!</p>
-                                    </div>
-                                    <hr>
+        <section id="about">
+            <div class="row pt-5">
+                <div class="col s12 l12 m12 ">
+                    <h6 class="btn-title center-align">how we could help</h6>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12">
+                    <h3 class="title center-align">
+                        Amha Free autism center, completely free of charge
+                    </h3>
+                </div>
+            </div>
 
-                                    <div class="bottom">
-                                        <div class="left">
-                                            <p class="not-important">Raised</p>
-                                            <h1 class="primary-color title">&#36;1500</h1>
-                                        </div>
-                                        <div class="right">
-                                            <p class="not-important">Goal</p>
-                                            <h1 class="title title-text">&#36;2500</h1>
-                                        </div>
-                                    </div>
-                                    <div style="text-align: center;" class="mt-3">
-                                        <button class="btn btn-primary">donate now</button>
-                                    </div>
+            <div class="row pt-5">
+                <div class="col l4 m12 s12">
+                    <div class="center icon-card">
+                        <i class="material-icons">favorite</i>
+                        <h6 class="sub-title">our Mission</h6>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore aperiam ipsam, est, adipisci
+                            facere cupiditate repudiandae
+                            porro sunt odit, aliquam sapiente qui libero? Suscipit, quisquam!</p>
+                    </div>
+                </div>
+                <div class="col l4 m12 s12">
+                    <div class="center icon-card">
+                        <i class="material-icons">stars</i>
+                        <h6 class="sub-title">our vision</h6>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore aperiam ipsam, est, adipisci
+                            facere cupiditate repudiandae
+                            porro sunt odit, aliquam sapiente qui libero? Suscipit, quisquam!</p>
+                    </div>
+                </div>
+                <div class="col l4 m12 s12">
+                    <div class="center icon-card">
+                        <i class="material-icons">thumb_up</i>
+                        <h6 class="sub-title">content title</h6>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore aperiam ipsam, est, adipisci
+                            facere cupiditate repudiandae
+                            porro sunt odit, aliquam sapiente qui libero? Suscipit, quisquam!</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row pt-5">
+                <div class="center col s12">
+                    <button class="btn btn-primary">donte</button>
+                    <button class="btn white black-text btn-primary">donte</button>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+
+    <section id="services" class="section ">
+
+        <div class="container pt-3">
+            <div class="row">
+                <div class="center col s12">
+                    <h6 class="btn-title">our services</h6>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col s12">
+                    <h3 class="center-align title">
+                        check the services we provide
+                    </h3>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col l4 m12 s12">
+                    <div class="card z-depth-0">
+                        <div class="card-wrapper">
+                            <div class="card-image">
+
+                                <div class="slider">
+                                    <ul class="slides">
+                                        <li>
+                                            <img src="./assets/services/speech_first.jpg"> <!-- random image -->
+                                        </li>
+                                        <li>
+                                            <img src="./assets/services/speech_second.jpg"> <!-- random image -->
+                                        </li>
+                                    </ul>
+                                            <div class="card-btn">
+                                                <button class="btn blue white-text  center">view more</button>
+                                            </div>
                                 </div>
                             </div>
                         </div>
-                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button"
-                            data-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="carousel-control-next" href="#carouselExampleControls" role="button"
-                            data-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Next</span>
-                        </a>
+                        <div class="card-content">
+                            <p class="card-title">Speech Language therapy</p>
+
+                            <p>I am a very simple card. I am good at containing small bits of information.
+                                I am convenient because I require little markup to use effectively.</p>
+                        </div>
+
+                        <!-- <div class="card-action">
+                        </div> -->
+                    </div>
+                </div>
+                <div class="col l4 m12 s12">
+                    <div class="card z-depth-0">
+                        <div class="card-image">
+
+                            <div class="slider">
+                                <ul class="slides">
+                                    <li>
+                                        <img src="./assets/services/occ_first.jpg"> <!-- random image -->
+                                    </li>
+                                    <li>
+                                        <img src="./assets/services/occ_second.jpg"> <!-- random image -->
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <p class="card-title">Occupational Therapy</p>
+
+                            <p>I am a very simple card. I am good at containing small bits of information.
+                                I am convenient because I require little markup to use effectively.</p>
+                        </div>
+                        <!-- <div class="card-action">
+                        </div> -->
+                    </div>
+                </div>
+
+                <div class="col l4 m12 s12">
+                    <div class="card z-depth-0">
+                        <div class="card-image">
+
+                            <div class="slider">
+                                <ul class="slides">
+                                    <li>
+                                        <img src="./assets/services/beha_first.jpg"> <!-- random image -->
+                                    </li>
+                                    <li>
+                                        <img src="./assets/services/beha_second.jpg"> <!-- random image -->
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <p class="card-title">behavior modification program</p>
+
+                            <p>I am a very simple card. I am good at containing small bits of information.
+                                I am convenient because I require little markup to use effectively.</p>
+                        </div>
+                        <!-- <div class="card-action">
+                        </div> -->
+                    </div>
+                </div>
+
+
+                
+               
+
+        </div>
+
+    </section>
+
+    <section id="events">
+        <div class="row">
+            <div class="col s12">
+                <h6>button title</h6>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12">
+                <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem totam ab suscipit voluptates,
+                    itaque ullam.</h3>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col l6 m12 s12">
+                <div class="card">
+                    <div class="card-image">
+                        <img height="250px" src="https://source.unsplash.com/random">
+                        <span class="card-title">Card Title</span>
+                    </div>
+                    <div class="card-content">
+                        <p>I am a very simple card. I am good at containing small bits of information.
+                            I am convenient because I require little markup to use effectively.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">This is a link</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col l6 m12 s12">
+                <div class="row">
+                    <div class="col l6 m12 s12">
+                        <div class="card">
+                            <div class="card-image">
+                                <img height="250px" src="https://source.unsplash.com/random">
+                                <span class="card-title">Card Title</span>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col l6 m12 s12">
+                        <div class="card">
+                            <div class="card-image">
+                                <img height="250px" src="https://source.unsplash.com/random">
+                                <span class="card-title">Card Title</span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col l6 m12 s12">
+                        <div class="card">
+                            <div class="card-image">
+                                <img height="250px" src="https://source.unsplash.com/random">
+                                <span class="card-title">Card Title</span>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col l6 m12 s12">
+                        <div class="card">
+                            <div class="card-image">
+                                <img height="250px" src="https://source.unsplash.com/random">
+                                <span class="card-title">Card Title</span>
+                            </div>
+
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-
-        <div class="container">
-            <div class="row mt-lg">
-                <b class="col-lg-12 col-md-12 col-sm-12 text-center">
-                    <button class="label-secondary mt-5">
-                        how you could help
-                    </button>
+        <section id="gallery">
+            <div class="row">
+                <div class="col s12">
+                    <h6>button title</h6>
+                </div>
             </div>
-        </div>
-        <div class="row mb-5">
-            <div class="col-lg-8 text-center container">
-                <h3 class="title text-center title-color">
-                    we help thousands of children to get their education now we need your help to continue this
-
-                </h3>
+            <div class="row">
+                <div class="col s12">
+                    <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem totam ab suscipit
+                        voluptates,
+                        itaque ullam.</h3>
+                </div>
             </div>
-        </div>
 
-        <div class="row ml-5 mr-5 mt-42">
-            <div class="col-lg-4 text-center">
-                <img src="/assets/icons/home/saving-pig.svg" alt="" class="icon-img">
-                <h5 class="sub-title">give donation</h5>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
-                    impedit tempore iure modi aliquam obcaecati libero est? Facere, iure qui.</p>
+            <div class="row">
+                <div class="col l3 m6 s12">
+                    <div class="card">
+                        <div class="card-image">
+                            <img height="250px" src="https://source.unsplash.com/random">
+                            <span class="card-title">Card Title</span>
+                        </div>
+                        <div class="card-content">
+                            <p>I am a very simple card. I am good at containing small bits of information.
+                                I am convenient because I require little markup to use effectively.</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="#">This is a link</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l3 m6 s12">
+                    <div class="card">
+                        <div class="card-image">
+                            <img height="250px" src="https://source.unsplash.com/random">
+                            <span class="card-title">Card Title</span>
+                        </div>
+                        <div class="card-content">
+                            <p>I am a very simple card. I am good at containing small bits of information.
+                                I am convenient because I require little markup to use effectively.</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="#">This is a link</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l3 m6 s12">
+                    <div class="card">
+                        <div class="card-image">
+                            <img height="250px" src="https://source.unsplash.com/random">
+                            <span class="card-title">Card Title</span>
+                        </div>
+                        <div class="card-content">
+                            <p>I am a very simple card. I am good at containing small bits of information.
+                                I am convenient because I require little markup to use effectively.</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="#">This is a link</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l3 m6 s12">
+                    <div class="card">
+                        <div class="card-image">
+                            <img height="250px" src="https://source.unsplash.com/random">
+                            <span class="card-title">Card Title</span>
+                        </div>
+                        <div class="card-content">
+                            <p>I am a very simple card. I am good at containing small bits of information.
+                                I am convenient because I require little markup to use effectively.</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="#">This is a link</a>
+                        </div>
+                    </div>
+                </div>
+
             </div>
-            <div class="col-lg-4 text-center">
-                <img src="/assets/icons/home/saving-pig.svg" alt="" class="icon-img">
-                <h5 class="sub-title">give donation</h5>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
-                    impedit tempore iure modi aliquam obcaecati libero est? Facere, iure qui.</p>
+        </section>
+
+        <section id="another" class="section">
+            <div class="row">
+                <div class="col s12">
+                    <h6>button title</h6>
+                </div>
             </div>
-            <div class="col-lg-4 text-center">
-                <img src="/assets/icons/home/saving-pig.svg" alt="" class="icon-img">
-                <h5 class="sub-title">give donation</h5>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
-                    impedit tempore iure modi aliquam obcaecati libero est? Facere, iure qui.</p>
+            <div class="row">
+                <div class="col s12">
+                    <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem totam ab suscipit
+                        voluptates,
+                        itaque ullam.</h3>
+                </div>
             </div>
-        </div>
 
 
-        <div class="row mt-5">
-            <div class="col-lg-12 col-md-12 col-sm-12 text-center">
-                <button class="btn btn-primary">Donate now</button>
-                <button class="btn btn-secondary-outline">become a volunteer</button>
+            <div class="row">
+                <div class="col l4 m12 s12">
+                    <div class="card">
+                        <div class="card-image">
+                            <img height="250px" src="https://source.unsplash.com/random">
+                            <span class="card-title">Card Title</span>
+                        </div>
+                        <div class="card-content">
+                            <p>I am a very simple card. I am good at containing small bits of information.
+                                I am convenient because I require little markup to use effectively.</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="#">This is a link</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l4 m12 s12">
+                    <div class="card">
+                        <div class="card-image">
+                            <img height="250px" src="https://source.unsplash.com/random">
+                            <span class="card-title">Card Title</span>
+                        </div>
+                        <div class="card-content">
+                            <p>I am a very simple card. I am good at containing small bits of information.
+                                I am convenient because I require little markup to use effectively.</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="#">This is a link</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l4 m12 s12">
+                    <div class="card">
+                        <div class="card-image">
+                            <img height="250px" src="https://source.unsplash.com/random">
+                            <span class="card-title">Card Title</span>
+                        </div>
+                        <div class="card-content">
+                            <p>I am a very simple card. I am good at containing small bits of information.
+                                I am convenient because I require little markup to use effectively.</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="#">This is a link</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
+
+        </section>
+
+        <section id="parallax" class="paral">
+            <div class="parallax-container">
+                <div class="parallax"><img src="https://source.unsplash.com/random"></div>
+            </div>
+            <div class="section white">
+                <div class="row container">
+                    <h2 class="header">Parallax</h2>
+                    <p class="grey-text text-darken-3 lighten-3">Parallax is an effect where the background content
+                        or image in this case, is moved at a different speed than the foreground content while
+                        scrolling.</p>
+                </div>
+            </div>
+            <div class="parallax-container">
+                <div class="parallax"><img src="https://source.unsplash.com/random"></div>
+            </div>
+        </section>
 
 
-        </div>
 
-    </section>
+        <section id="footer">
+            <footer class="page-footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col l6 s12">
+                            <h5 class="white-text">Footer Content</h5>
+                            <p class="grey-text text-lighten-4">You can use rows and columns here to organize your
+                                footer
+                                content.</p>
+                        </div>
+                        <div class="col l4 offset-l2 s12">
+                            <h5 class="white-text">Links</h5>
+                            <ul>
+                                <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                                <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                                <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                                <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-copyright">
+                    <div class="container">
+                        © 2014 Copyright Text
+                        <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+                    </div>
+                </div>
+            </footer>
+        </section>
+
+
+        <script>
+
+            document.addEventListener('DOMContentLoaded', function () {
+                var side_ele = document.querySelectorAll('.sidenav');
+                var side_instance = M.Sidenav.init(side_ele);
+
+                var car_elem = document.querySelectorAll('.carousel');
+                var carousel_instance = M.Carousel.init(car_elem,
+                    {
+                        fullWidth: true,
+                        indicators: true
+                    }
+                );
+
+                var slide_elem = document.querySelectorAll('.slider');
+                var slide_instance = M.Slider.init(slide_elem, {
+                    height:300,
+                })
+
+                var paralax_elem = document.querySelectorAll('.parallax');
+                var paralax_instance = M.Parallax.init(paralax_elem);
+            });
+        </script>
 
 
 
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"></script>
 </body>
 
 </html>

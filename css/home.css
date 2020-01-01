@@ -1,46 +1,79 @@
-#home{
-    min-height: 50vh;
+.btn-title{
+    text-transform: uppercase;
+    font-size: 12px;
+    background-color: #91A1B4;
+    padding: 10px 20px;
+    color: white;
+    
+
 }
-.carousel-item{
+
+.title{
+    color: #435061;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.sub-title{
+    font-size: 14px;
+    color: #435061;
+    text-transform: uppercase;
+}
+
+
+.card-title{
+    font-size:  16px !important;
+    color: #435061;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+.material-icons{
+    font-size: 2em;
+    color: #29AF8A;
+}
+
+p{
+    color: #637285;
+}
+
+
+#services{
+    background-color: #E8ECF2;
+    margin-top: 8%;
+    padding-bottom: 5%;
+}
+
+.slider{
     position: relative;
 }
-.c-image{
-    height: 100vh;
-    width: 100%;
-    object-fit: cover;
-    object-position: center;
-}
 
-.donate-card{
-    background-color: white;
+.card-btn{
     position: absolute;
-    top: 15%;
-    left: 10%;
-    padding: 22px 16px;
-    width: 25%;
-    text-align: left;
+    /* top: 40%; */
+    left: 35%;
+    z-index: 2; 
+    /* opacity: 0; */
+    top: -40%;
+    margin-left: auto;
+    margin-right: auto;
+    right: 0;
+
+    
 }
 
-.feature{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.card:hover .card-btn{
+    position: absolute;
+    top: 40%;
+    bottom: 0;
+    left: 35%;
+    z-index: 2; 
+    opacity: 1;
+    transition: all 1s ease-in-out;
+
 }
-
-.bottom{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.icon-img{
-    width: 61px;
-    height: 51px;
-    margin-bottom:26px;
-    color: #91a1b4;
-}
-
-
 
 
 

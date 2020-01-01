@@ -1,28 +1,4 @@
-.nav-bar{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding: 22px 16px;
-    box-shadow: 1px 1px 5px 1px #7F8B99;
-
+#nvabar {
+    color: #7F8BA6;
 }
 
-.nav-bar ul{
-    display: flex;
-    align-items: center;
-    /* justify-content: space-evenly; */
-}
-
-.nav-group-item{
-    list-style: none;
-    margin-left: 16px;
-    text-transform: uppercase;
-}
-
-.nav-item-link{
-    color: #7F8B99;
-}
-
-.nav-item-link.active{
-    color: #435061;
-}
