@@ -28,6 +28,31 @@ body{
 }
 
 
+#testimonial{
+    padding-top: 7%;
+    padding-bottom: 7%;
+    background-color: #435061;
+}
+
+.test-card{
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 64% 75%, 53% 95%, 45% 75%, 0% 75%);
+    padding-bottom: 25%;
+}
+
+.test-title{
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+}
+
+.test-sub-title{
+    color: #91A1B4;
+    text-transform: uppercase;
+}
+
+
+
+
 .pt-5{
     padding-top: 5%;
 }
@@ -81,4 +106,13 @@ body{
 
 .card:hover .event-info{
     background-color: #29AF8A;
+}
+
+.material-icons{
+    font-size: 2em;
+    color: #29AF8A;
+}
+
+.fs-3{
+    font-size: 3em;
 }
