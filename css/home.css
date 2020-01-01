@@ -35,6 +35,11 @@
     color: #29AF8A;
 }
 
+.materialboxed{
+    object-fit: cover;
+    object-position: center center;
+}
+
 p{
     color: #637285;
 }
@@ -46,20 +51,22 @@ p{
     padding-bottom: 5%;
 }
 
-.slider{
+#slider{
     position: relative;
+
 }
 
 .card-btn{
     position: absolute;
     /* top: 40%; */
+    bottom: -30%;
     left: 35%;
     z-index: 2; 
-    /* opacity: 0; */
-    top: -40%;
-    margin-left: auto;
-    margin-right: auto;
-    right: 0;
+    opacity: 0;
+    /* top: 180px; */
+    /* margin-left: auto;
+    margin-right: auto; */
+    /* right: 0; */
 
     
 }
@@ -71,10 +78,13 @@ p{
     left: 35%;
     z-index: 2; 
     opacity: 1;
-    transition: all 1s ease-in-out;
+    transition: all 500 ease-in;
 
 }
 
+.card:hover .slider img{
+    opacity: 0.7;
+}
 
 
 

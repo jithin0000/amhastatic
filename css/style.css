@@ -7,6 +7,27 @@ body{
 
 }
 
+.card-image{
+    object-fit: cover!important;
+    object-position: center center;
+}
+
+#events{
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+#team{
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+
+#gallery{
+    padding-top: 7%;
+    padding-bottom: 7%;
+    background-color: #E8ECF2;
+}
+
+
 .pt-5{
     padding-top: 5%;
 }
@@ -15,4 +36,49 @@ body{
 }
 .primary-color{
     color: #435061;
+}
+
+
+
+.card-wrapper{
+    position: relative;
+}
+
+.test-btn{
+    position: absolute;
+    top: 90%;
+    left: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0;
+    bottom: -30%;
+    
+}
+
+.card:hover .test-btn{
+    top: 50%;
+    opacity: 1;
+    transition: all 1s ease;
+}
+
+.card:hover .card-wrapper img{
+    opacity: 0.7;
+}
+
+
+.event-info{
+    display: flex;
+    text-transform: uppercase;
+    align-items: center;
+    color: white!important;
+    font-size: 12px;
+    font-weight: bold;
+    justify-content: space-around;
+    padding: 16px 8px;
+    align-items: center;
+    background-color: #91A1B4;
+}
+
+.card:hover .event-info{
+    background-color: #29AF8A;
 }
