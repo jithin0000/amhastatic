@@ -157,3 +157,18 @@ body{
     display: flex;
     justify-content: space-around;
 }
+
+/* the slides */
+.slick-slide {
+    margin: 0 10px;
+}
+/* the parent */
+.slick-list {
+    margin: 0 -10px;
+}
+
+.service-slider .card{
+    /* padding-right: 8px; */
+    /* margin-right: 8px; */
+    /* margin-left: 8px; */
+}
