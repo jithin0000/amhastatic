@@ -17,64 +17,90 @@
 
     <section id="navbar">
 
-        <div class="navbar-fixed">
+        <div class="navbar-fixed ">
             <nav class="white">
-                <div class="nav-wrapper">
-                    <a href="#!" class="brand-logo">Logo</a>
-                    <a href="#" data-target="mobile-demo" class="sidenav-trigger">
-                        <i class="material-icons">menu</i></a>
-                    <ul class="center-align hide-on-med-and-down">
-                        <li><a style="color: #7F8BA6;" class="nav-item-link" href="Services.html">Services</a></li>
-                        <li><a style="color: #7F8BA6;" class="nav-item-link" href="badges.html">Events</a></li>
-                        <li><a style="color: #7F8BA6;" class="nav-item-link" href="collapsible.html">Gallery</a></li>
-                        <li><a style="color: #7F8BA6;" class="nav-item-link" href="mobile.html">Mobile</a></li>
-                        <li><a class="btn btn" href="mobile.html">About us</a></li>
-    
-                    </ul>
+                <div class="container">
+                    <div class="nav-wrapper">
+                        <div class="logo">
+                            <a href="#!" class="brand-logo">
+                                <img src="./assets/logo/logo.png" alt="" height="50px" width="50px">
+                            </a>
+                        </div>
+                        <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+                            <i class="material-icons">menu</i></a>
+                        <ul class="right hide-on-med-and-down">
+                            <li class="active"><a class="nav-item-link" href="Services.html">Services</a></li>
+                            <li><a class="nav-item-link" href="badges.html">Events</a></li>
+                            <li><a class="nav-item-link" href="collapsible.html">Gallery</a></li>
+                            <li><a class="nav-item-link" href="mobile.html">Mobile</a></li>
+                            <li><a class="btn btn-flat teal white-text" href="mobile.html">About us</a></li>
+
+                        </ul>
+                    </div>
                 </div>
             </nav>
-    
-            <ul class="sidenav" id="About us-demo">
+
+            <ul class="sidenav" id="slide-out">
                 <li><a style="color: #7F8BA6;" href="Services.html">Services</a></li>
                 <li><a style="color: #7F8BA6;" href="badges.html">Events</a></li>
                 <li><a style="color: #7F8BA6;" href="collapsible.html">Gallery</a></li>
                 <li><a style="color: #7F8BA6;" href="mobile.html">About us</a></li>
             </ul>
-    
+
         </div>
     </section>
 
 
-    <section id="slideshow">
-        <div class="carousel carousel-slider center">
-            <!-- <div class="carousel-fixed-item center">
-                <a class="btn waves-effect white grey-text darken-text-2">button</a>
-            </div> -->
-            <div class="carousel-item red white-text" href="#one!">
-                <h2>First Panel</h2>
-                <p class="white-text">This is your first panel</p>
+        <section id="slideshow" class="section">
+           <div class="primary-overlay">
+            <div class="carousel carousel-slider center">
+                <!-- <div class="carousel-fixed-item left">
+                            <a class="btn waves-effect white grey-text darken-text-2">button</a>
+                        </div> -->
+                <div class="carousel-item red white-text" href="#one!">
+                    <img class="carousel-image" src="./assets/carousel/carousel_fouth.png" alt="">
+                </div>
+                <div class="carousel-item amber white-text" href="#two!">
+                    <img class="carousel-image" src="./assets/carousel/carousel_second.jpg" alt="">
+                </div>
+                <div class="carousel-item green white-text" href="#three!">
+                    <img class="carousel-image" src="./assets/carousel/carousel_first.jpeg" alt="">
+
+                </div>
+                <div class="carousel-item blue white-text" href="#four!">
+                    <img class="carousel-image" src="./assets/carousel/carousel_third.jpg" alt="">
+                </div>
             </div>
-            <div class="carousel-item amber white-text" href="#two!">
-                <h2>Second Panel</h2>
-                <p class="white-text">This is your second panel</p>
+           </div>
+            <div class="carousel-text">
+                <div class="row">
+                    <div class="center-align col l4 s12">
+                        <div class="card left-align">
+                            <div class="card-image">
+                            </div>
+                            <div class="card-content">
+                                <h6 class="btn-title teal darken-5">what is amha</h6>
+                                <span class="card-title pt-5">free training center</span>
+                                <p class="pt-5">I am a very simple card. I am good at containing small bits of information.
+                                    I am convenient because I require little markup to use effectively.</p>
+                                
+                            </div>
+                            <div class="card-action center">
+                                <button class="btn">donate now</button>
+                            </div>
+                        </div>
+                        </div>
+                </div>
             </div>
-            <div class="carousel-item green white-text" href="#three!">
-                <h2>Third Panel</h2>
-                <p class="white-text">This is your third panel</p>
-            </div>
-            <div class="carousel-item blue white-text" href="#four!">
-                <h2>Fourth Panel</h2>
-                <p class="white-text">This is your fourth panel</p>
-            </div>
-        </div>
-    </section>
+        </section>
+    </div>
 
     <div class="container">
 
         <section id="about">
             <div class="row pt-5">
-                <div class="col s12 l12 m12 ">
-                    <h6 class="btn-title center-align">how we could help</h6>
+                <div class="col center s12 l12 m12 ">
+                    <h6 class="btn-title ">how we could help</h6>
                 </div>
             </div>
             <div class="row">
@@ -239,8 +265,8 @@
     <section id="events">
         <div class="container">
             <div class="row">
-                <div class="col s12">
-                    <h6 class="btn-title center">Events amha organized</h6>
+                <div class="col s12 center">
+                    <h6 class="btn-title ">Events amha organized</h6>
                 </div>
             </div>
             <div class="row">
@@ -345,8 +371,8 @@
         <section id="team" class="section">
             <div class="container">
                 <div class="row">
-                    <div class="col s12">
-                        <h6 class="btn-title center">Our Team</h6>
+                    <div class="col s12 center">
+                        <h6 class="btn-title ">Our Team</h6>
                     </div>
                 </div>
                 <div class="row">
@@ -443,8 +469,8 @@
 
             <div class="container">
                 <div class="row">
-                    <div class="col s12">
-                        <h6 class="btn-title center">Gallery</h6>
+                    <div class="col s12 center">
+                        <h6 class="btn-title ">Gallery</h6>
                     </div>
                 </div>
                 <div class="row">
@@ -479,7 +505,7 @@
                     <img height="250px" width="100%" class="materialboxed" src="https://source.unsplash.com/random">
                 </div>
             </div>
-            
+
             <div class="row">
                 <div class="col l3 m6 s12">
                     <img height="250px" width="100%" class="materialboxed" src="https://source.unsplash.com/random">
@@ -491,8 +517,7 @@
                     <img height="250px" width="100%" class="materialboxed" src="https://source.unsplash.com/random">
                 </div>
                 <div class="col l3 m6 s12">
-                    <img height="250px" width="100%" class="materialboxed"
-                     src="https://source.unsplash.com/random">
+                    <img height="250px" width="100%" class="materialboxed" src="https://source.unsplash.com/random">
                 </div>
             </div>
 
@@ -502,8 +527,8 @@
 
             <div class="container">
                 <div class="row">
-                    <div class="col s12">
-                        <h6 class="btn-title center">Testimonials</h6>
+                    <div class="col s12 center">
+                        <h6 class="btn-title ">Testimonials</h6>
                     </div>
                 </div>
                 <div class="row">
@@ -565,17 +590,19 @@
 
         <section class="section" id="parallax">
             <div class="parallax-container">
-                <div class="parallax"><img  src="https://source.unsplash.com/random"></div>
-              </div>
-              <div class="section white">
+                <div class="parallax"><img src="https://source.unsplash.com/random"></div>
+            </div>
+            <div class="section white">
                 <div class="row container">
-                  <h2 class="header">Parallax</h2>
-                  <p class="grey-text text-darken-3 lighten-3">Parallax is an effect where the background content or image in this case, is moved at a different speed than the foreground content while scrolling.</p>
+                    <h2 class="header">Parallax</h2>
+                    <p class="grey-text text-darken-3 lighten-3">Parallax is an effect where the background content or
+                        image in this case, is moved at a different speed than the foreground content while scrolling.
+                    </p>
                 </div>
-              </div>
-              <div class="parallax-container">
-                <div class="parallax"><img  src="https://source.unsplash.com/random"></div>
-              </div>
+            </div>
+            <div class="parallax-container">
+                <div class="parallax"><img src="https://source.unsplash.com/random"></div>
+            </div>
         </section>
 
 
@@ -614,6 +641,7 @@
         <script>
 
             document.addEventListener('DOMContentLoaded', function () {
+
                 var side_ele = document.querySelectorAll('.sidenav');
                 var side_instance = M.Sidenav.init(side_ele);
 
